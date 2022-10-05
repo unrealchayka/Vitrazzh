@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<body>
+    <h1>форма для телеграма</h1>
+    <form method = 'post' action="{% url 'telegram' %}">
+        {% csrf_token %}
+        {{TForm.as_p}}
+        <button type="submite">Отправить :) </button>
+    </form> 
+
+    <h1>форма для ватсапа</h1>
+        <a href="{% url 'whatsapp' %}"> <img src="https://trizway.com/images/whatsapp.png" width="50"></a>
+    </form> 
+    
+</body>
+</html>
