@@ -110,7 +110,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-TELEGRAM_TOKEN = '5481017391:AAH8lz6eLWAfkF4EUSioTN-60SET6xn_5QY' # вашь токен бота (https://t.me/BotFather)
+TELEGRAM_TOKEN = '5481017391:AAH8lz6eLWAfkF4EUSioTN-60SET6xn_5QY' # ваш токен бота (https://t.me/BotFather)
 
 CHAT_ID = '753553353' # ваш чат айди(https://t.me/getmyid_bot)
 
